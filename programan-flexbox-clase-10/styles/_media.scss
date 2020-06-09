@@ -1,0 +1,61 @@
+
+@media screen and (max-width: 800px){
+
+    body{
+        background-color:$bg-until-800px;
+
+        header{
+            background-color: $bg-color-header-800px;
+         }
+
+        nav{
+            border-left:2px solid  $color-border-nav-800px;
+            border-right: 2px solid $color-border-nav-800px;
+
+            a{
+                color:$color-text-nav-800px;
+            }
+            
+        }
+
+        aside{
+            background-color:$bg-aside-800px;
+            
+            a{
+                color:$color-text-aside;
+            }
+        }
+    }
+
+}
+
+@media screen and (min-width: 801px) and (max-width: 1200px){
+
+
+    body{
+        background-color:$bg-801-1200px;
+
+        header{
+            background-color: $bg-color-header-801-1200;
+
+        }
+
+        nav{
+            border-left:2px solid  $border-nav-801-1200;
+            border-right: 2px solid $border-nav-801-1200;
+
+            a{
+                color:$color-text-nav-801-1200;
+            }
+            
+        }
+        aside{
+            background-color: $bg-aside-801-1200;
+            a{
+                color: $color-text-aside-801-1200;
+            }
+        }
+    }
+}
+
+       

@@ -1,0 +1,21 @@
+
+header{
+    display:flex; 
+    justify-content: space-between;
+    background-color: $bg-header;
+  
+
+    img{
+        width: 100px;
+        height: 100px;
+        padding: 0.3%;
+    }
+
+    h1{
+        align-self: center;
+        font-size: 60px;
+        color: $color-title-header;
+        padding: 0.3%;
+       
+    }
+}

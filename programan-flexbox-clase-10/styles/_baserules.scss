@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body{  
+    display: flex; 
+    flex-direction: column;
+    margin: 0.5%;
+    padding: 0.5%;
+    background-color: $bg;
+}
+h2{
+    text-align: center;
+    padding-bottom: 2%;
+}
+
+li{
+    list-style-type: none; 
+       
+}
+
+a{
+    text-decoration: none;   
+}
+
+article{
+    margin: 2%;
+}
+img{
+    padding: 1%;
+    width: 160px;
+    height: 160px;
+    align-self: center;
+}
+
